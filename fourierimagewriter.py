@@ -1,12 +1,12 @@
 from distutils.log import error
 import math
 
-file2 = open('C://Users//harsh//Documents//python files//random stuff//Fourier//imagefourier.txt','r')
+file2 = open('imagefourier.txt','r')
 List2 = (file2.read()).split('\n')[:-1]
 file2.close()
 dx = 0.001
 
-iter = int(input("Enter how much precision you want [recommended: 5-50]: "))
+iter = int(input("Enter how much precision you want [recommended: 2-20]: "))
 
 z1 = int((2 * math.pi / dx) // len(List2))
 z2 = math.floor((2 * math.pi / dx) % len(List2))
@@ -56,7 +56,7 @@ for i in range(iter):
 
 B[0]/=2
 
-file = open('C://Users//harsh//Documents//python files//random stuff//Fourier//fourierimageseries.txt', 'w')
+file = open('fourierimageseries.txt', 'w')
 for j in range(len(A)):
     file.write('A{}'.format(A[j]))
 file.write('\n')

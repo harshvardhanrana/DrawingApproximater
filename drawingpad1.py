@@ -27,7 +27,7 @@ tur.shapesize(0.1,0.1,0.1)
 
 ws.onscreenclick(turtmove)
 
-file = open('C://Users//harsh//Documents//python files//random stuff//Fourier//imagefourier.txt','w')
+file = open('imagefourier.txt','w')
 
 tur.ondrag(drag)
 

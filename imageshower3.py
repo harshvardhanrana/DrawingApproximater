@@ -1,7 +1,7 @@
 import math
 import turtle
 
-file = open('C://Users//harsh//Documents//python files//random stuff//Fourier//fourierimageseries.txt','r')
+file = open('fourierimageseries.txt','r')
 str = file.read()
 
 file.close()
