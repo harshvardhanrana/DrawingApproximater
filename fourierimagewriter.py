@@ -1,4 +1,3 @@
-from distutils.log import error
 import math
 
 file2 = open('imagefourier.txt','r')
