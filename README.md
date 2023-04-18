@@ -12,7 +12,7 @@ When you are done, close the turtle window.
 ## Fourier Image Writer
 The minimum input should be 2.\
 Input of 2 would give an ellipse.\
-Selecting higher values like 50 or above would be make the approximation lose its sharpness and would take more time to load.
+Selecting higher values like 50 or above would be make the approximation lose its smoothness and would take more time to load.
 
 ## Image Shower
 The image would be reconstructed by the turtle.\
